@@ -2,12 +2,9 @@
 #include <stdio.h>
 
 /**
- * printing with the function puts
- *
  * main - Entry point
  *
- * Return : 0(success)
- * 
+ * Return : Always 0(success)
  */
 int main(void)
 {
