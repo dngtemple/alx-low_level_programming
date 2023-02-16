@@ -4,7 +4,9 @@
 /**
  * printing with the function puts
  *
- * and returning 0
+ * main - Entry point
+ *
+ * Return - 0(success)
  * */
 int main(void)
 {
