@@ -10,12 +10,12 @@ int main(void)
 char lower_case = 'a';
 char upper_case = 'A';
 
-while ('a' <= 'z')
+while (lower_case <= 'z')
 {
 putchar(lower_case);
 lower_case++;
 }
-while ('A' <= 'Z')
+while (upper_case <= 'Z')
 {
 putchar(upper_case);
 upper_case++;
