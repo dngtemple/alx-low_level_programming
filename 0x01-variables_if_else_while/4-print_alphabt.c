@@ -16,7 +16,8 @@ if (letter != 'q' && letter != 'e')
 putchar(letter);
 }
 letter++;
-putchar ('\n');
 }
+putchar ('\n');
+
 return (0);
 }
