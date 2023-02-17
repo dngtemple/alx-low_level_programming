@@ -11,7 +11,11 @@ char letter = 'a';
 
 while (letter <= 'z')
 {
-if (letter == 'q' && letter == 'e')
+if (letter == 'q')
+{
+continue;
+}
+if (letter == 'e')
 {
 continue;
 }
