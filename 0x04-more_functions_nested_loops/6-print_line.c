@@ -3,6 +3,8 @@
 /**
  * print_line - printing a straight line
  * @n: number of times
+ *
+ * Return: void
  */
 
 void print_line(int n)
