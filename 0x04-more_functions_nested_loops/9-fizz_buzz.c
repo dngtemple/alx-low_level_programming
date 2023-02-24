@@ -14,15 +14,19 @@ for (num = 0; num <= 100; num++)
 {
 if (num % 3 == 0)
 {
-printf("Fizz");
+printf("Fizz,");
 }
 if (num % 5 == 0)
 {
-printf("Buzz");
+printf("Buzz,");
 }
 if  (num % 15 == 0)
 {
-printf("FizzBuzz");
+printf("FizzBuzz,");
+}
+else
+{
+printf("%d,", num);
 }
 }
 printf("\n");
