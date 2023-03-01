@@ -14,7 +14,7 @@ int j = 0;
 
 	while (dest[i] != '\n')
 	{
-		dest++;
+		i++;
 	}
 
 	while (src[j] != '\n')
