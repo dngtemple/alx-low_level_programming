@@ -19,6 +19,7 @@ if (string[i] >= 'a' && string[i] <= 'z')
 string[i] = string[i] - 32;
 }
 }
+return (string);
 }
 
 
