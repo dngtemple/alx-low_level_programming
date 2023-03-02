@@ -2,8 +2,8 @@
 
 /**
  * _strncat - concatenate two strings
- * @dest: first string
- * @src: second string
+ * @dest: first pointer  to be changed
+ * @src: second pointer that will be changed
  * @n: value
  * Return: dest
  */
