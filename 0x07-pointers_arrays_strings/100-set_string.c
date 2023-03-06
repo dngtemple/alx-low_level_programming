@@ -4,6 +4,7 @@
 *@s: pointer value
 *@to: value pointed to
 *
+* Return: void
 */
 void set_string(char **s, char *to)
 {
