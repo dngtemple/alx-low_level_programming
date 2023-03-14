@@ -21,6 +21,11 @@ if (s == 0)
 return (NULL);
 }
 
+if (s == NULL)
+{
+return (NULL);
+}
+
 while (i < size)
 {
 s[i] = c;
