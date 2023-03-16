@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
 
 /**
  * _calloc - allocating memory for an array
@@ -6,7 +8,8 @@
  * @size: size of array
  *
  * Returns: NULL
- *          pointer
+ *          i
+ *          pointer to the allocated memory
  */
 
 
@@ -27,7 +30,7 @@ if (i == NULL)
 return (NULL);
 }
 
-for (j = 0; j < (nmemb * size); b++)
+for (j = 0; j < (nmemb * size); j++)
 {
 i[j] = 0;
 }
