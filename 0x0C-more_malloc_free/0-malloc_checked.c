@@ -1,5 +1,5 @@
-#include "'main.h"
-
+#include "main.h"
+#include <stdlib.h>
 /**
  * malloc_checked - allocating memory using malloc
  * @b: allocated memory
@@ -13,10 +13,10 @@ void *j;
 
 j = malloc(b);
 
-if(j == NULL)
+if (j == NULL)
 {
-exit (98);
+exit(98);
 }
 
-return (i);
+return (j);
 }
