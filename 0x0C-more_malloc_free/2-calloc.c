@@ -7,7 +7,7 @@
  * @nmemb: elments of the array
  * @size: size of array
  *
- * Returns: NULL
+ * Return: NULL
  *          i
  *          pointer to the allocated memory
  */
