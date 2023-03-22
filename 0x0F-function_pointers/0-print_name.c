@@ -1,8 +1,8 @@
 #include "function_pointers.h"
-
+#include <stddef.h>
 /**
- * print_name - prints a nmae
- * @name: name to be printed
+ * print_name - prints a name
+ * @name: name's main
  * @f: void function
  */
 
